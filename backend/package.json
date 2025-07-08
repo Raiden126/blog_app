@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/app.js\"",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guddu Shakar Paul",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.10",
+    "concurrently": "^9.2.0",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.10.1",
+    "mongoose": "^8.16.2"
+  }
+}
