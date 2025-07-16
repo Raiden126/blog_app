@@ -1,6 +1,5 @@
 import { Box, Typography } from "@mui/material";
 import { HomepageStyles } from "../../styles/homepage-styles";
-import Footer from "./Footer";
 
 function HomePage() {
   return (
@@ -44,7 +43,6 @@ function HomePage() {
           alt="Articles"
         />
       </Box>
-      <Footer />
     </Box>
   );
 }

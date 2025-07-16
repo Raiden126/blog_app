@@ -1,6 +1,6 @@
 import { SxProps } from "@mui/material";
 
-type Styles = {
+export type Styles = {
     [key: string]: SxProps;
 }
 
